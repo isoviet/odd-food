@@ -1,0 +1,4 @@
+# Exclude old source code
+.old/
+# Exclude log (.log) files
+*.log
