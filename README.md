@@ -11,12 +11,12 @@
 ## О проекте
 Odd Food — утилита, позволяющая внедрить произвольную полезную нагрузку в изображение. На данный момент поддерживаются только изображения формата PNG (Portable Network Graphics).
 
-Автор Odd Food не несёт ответственности за использование утилиты в противоправных целях третьими лицами. Законотворцам рекомендуем ознакомиться с [этой информацией](https://ru.wikipedia.org/wiki/Умысел).
+Автор Odd Food не несёт ответственности за использование утилиты в противоправных целях третьими лицами. Законотворцам рекомендуется ознакомиться с [этой информацией](https://ru.wikipedia.org/wiki/Умысел).
 
 ## Установка
-Для установки Odd Food необходимо скачать и распаковать [этот репозиторий](https://github.com/isoviet/oddfood/archive/refs/heads/master.zip), после чего запустить требуемый скрипт (pack.py/unpack.py), указав необходимые аргументы:
+Для установки Odd Food необходимо скачать и запустить последнюю версию установщика со [страницы загрузки](https://github.com/isoviet/odd-food/releases). Утилита запускается через командную строку командой "odd-food" со следующими аргументами:
 
-<table><thead><tr><th>Argument</th><th>Description</th></tr></thead><tbody><td>\-\-pld</td><td>Payload (for packing)</td></tr><tr><td>\-\-in</td><td>Input file path</td></tr><tr><td>\-\-out</td><td>Output file path</td></tr></tbody></table>
+<table><thead><tr><th>Argument</th><th>Description</th></tr></thead><tbody><tr><td>\-\-act</td><td>Action (pack/unpack)</td></tr><tr><td>\-\-pld</td><td>Payload (for packing)</td></tr><tr><td>\-\-in</td><td>Input file path</td></tr><tr><td>\-\-out</td><td>Output file path</td></tr></tbody></table>
 
 Для работы плагина необходим установленный [Python 3](https://www.python.org/downloads/).
 
