@@ -16,7 +16,7 @@ Odd Food — утилита, позволяющая внедрить произ�
 ## Установка
 Для установки Odd Food необходимо скачать и запустить последнюю версию установщика со [страницы загрузки](https://github.com/isoviet/odd-food/releases). Утилита запускается через командную строку командой "odd-food" со следующими аргументами:
 
-<table><thead><tr><th>Argument</th><th>Description</th></tr></thead><tbody><tr><td>\-\-act</td><td>Action (pack/unpack)</td></tr><tr><td>\-\-pld</td><td>Payload (for packing)</td></tr><tr><td>\-\-in</td><td>Input file path</td></tr><tr><td>\-\-out</td><td>Output file path</td></tr></tbody></table>
+<table><thead><tr><th>Argument</th><th>Description</th></tr></thead><tbody><tr><td>--act</td><td>Action (pack/unpack)</td></tr><tr><td>--pld</td><td>Payload file path (for packing)</td></tr><tr><td>--in</td><td>Input file path</td></tr><tr><td>--out</td><td>Output file path</td></tr></tbody></table>
 
 Для работы плагина необходим установленный [Python 3](https://www.python.org/downloads/).
 
