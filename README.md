@@ -20,10 +20,10 @@ Odd Food — утилита, позволяющая внедрить произ�
 
 ## Технология
 Odd Food Payload Format
-<table><thead><tr><th>Offset</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr></thead><tbody><tr><td>0x0</td><td colspan=8>Magic (14544909)</td></tr><tr><td>0x8</td><td colspan=8>Length</td></tr><tr><td>0x16</td><td colspan=8>Data</td></tr></tbody></table>
+<table><thead><tr><th>Offset</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th><th>13</th><th>14</th><th>15</th><th>16</th><th>17</th><th>18</th><th>19</th><th>20</th><th>21</th></tr></thead><tbody><tr><td>0x0</td><td colspan=22>Magic (14544909)</td></tr><tr><td>0x8</td><td colspan=22>Length</td></tr><tr><td>0x16</td><td colspan=22>Data</td></tr></tbody></table>
 
-Odd Food Data Storage
-<table><thead><tr><th>Channel</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr></thead><tbody><tr><td>Red</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>✔️</td><td>✔️</td><td>✔️</td></tr><tr><td>Green</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr><tr></tr><tr><td>Blue</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>✔️</td><td>✔️</td><td>✔️</td></tr><tr><td>Alpha</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr></tbody></table>
+Odd Food Pixel Storage
+<table><thead><tr><th>Channel</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr></thead><tbody><tr><td>Red</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>✔️ (3)</td><td>✔️ (2)</td><td>✔️ (1)</td></tr><tr><td>Green</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr><tr></tr><tr><td>Blue</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>✔️ (6)</td><td>✔️ (5)</td><td>✔️ (4)</td></tr><tr><td>Alpha</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr></tbody></table>
 
 Odd Food Image Sizes
 <table><thead><tr><th>Size</th><th>Max payload length</th></tr></thead><tbody><tr><td>128x128</td><td>6.3K</td></tr><tr><td>256x256</td><td>25.3K</td></tr><tr><td>512x512</td><td>101.4K</td></tr><tr><td>1024x768</td><td>304.3K</td></tr><tr></tr><tr><td>1024x1024</td><td>405.7K</td></tr><tr><td>2560x1440</td><td>1.39M</td></tr></tbody></table>
