@@ -18,8 +18,6 @@ Odd Food — утилита, позволяющая внедрить произ�
 
 <table><thead><tr><th>Argument</th><th>Description</th></tr></thead><tbody><tr><td>--act</td><td>Action (pack/unpack)</td></tr><tr><td>--pld</td><td>Payload file path (for packing)</td></tr><tr><td>--in</td><td>Input file path</td></tr><tr><td>--out</td><td>Output file path</td></tr></tbody></table>
 
-Для работы плагина необходим установленный [Python 3](https://www.python.org/downloads/).
-
 ## Технология
 Odd Food Payload Format
 <table><thead><tr><th rowspan=2>Offset</th><th align="center" colspan=22>Trits</th></tr><tr><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th><th>13</th><th>14</th><th>15</th><th>16</th><th>17</th><th>18</th><th>19</th><th>20</th><th>21</th></tr></thead><tbody><tr><td>0x0</td><td colspan=22>Magic (14544909)</td></tr><tr><td>0x15</td><td colspan=22>Length</td></tr><tr><td>0x2A</td><td colspan=22>Data</td></tr></tbody></table>
